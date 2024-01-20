@@ -138,6 +138,10 @@ sudo ln /usr/bin/cat ~/cat-linked-for-redirect-serial
 /home/pi/redirect-serial-file.sh &
 ```
 
+# Preconizare dev
+
+Cand voi relua lucrul, as face checkout la ac proiect pe rasp. De asta l-am pus pe GitHub (in loc de GitLab): sa nu fie pb de VPN. Si m-as conecta din VS Code cu ajutorul extensiei SSH FS. + rshell.
+
 # Documentatie relevanta
 
 ## Shield cu driver motoare
