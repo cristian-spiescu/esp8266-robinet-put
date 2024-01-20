@@ -1,5 +1,13 @@
 # esp8266-robinet-put
 
+Acasa nu am apa curenta, ci am un put cu hidrofor. Acolo exista un robinet (clasic/mecanic) pentru a intrerupe la nevoie alimentarea cu apa. 
+
+Aceasta intrerupere e o practica buna, in special in timpul absentelor indelungate. E.g. racordurile flexibile pentru WC, chiuveta, masina de spalat: intrebarea este: cand se fisureaza. Nu "daca" se fisureaza. Ideal ar trebui sa se intample asta cand sunt acasa, nu cand sunt plecat, ca sa ma trezesc cu ditamai inundatia.
+
+In cazul meu (put/hidrofor) e dificil sa cobor periodic in put. Deci am dorit sa instalez un robinet electric, pe care sa-l actionez cu ceva buton din casa.
+
+Acum exista robineti care au o mica electronica integrata; deci comanda se face doar cu un comutator. Insa la vremea cand l-am cumparat eu, nu am gasit un model din asta. Modelul meu are un motor si contacte de capat de cursa. Deci userul trebuie sa foloseasca un mic microcontroller (ESP8266/NodeMCU in cazul meu). In asta consta acest proiect. Insa am observat pe pielea mea, ca sunt multe diferente intre un mic/trivial proiect cu breadboard + jump wires vs. ceva suficient de robust pentru "productie".
+
 # Lessons learned (si istoric)
 
 In 2019 am inceput ditamai mini-framework OOP (cf. branch `arhiva-cod-versiuni-precedente`). Am avut probleme si nu am pus in prod. In 2022 am reluat si pus in prod proiectul. Iata cam ce am invatat, in majoritatea cazurilor "the hard way", in urma a mult timp si cod scris/incercat.
